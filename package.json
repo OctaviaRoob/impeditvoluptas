@@ -1,0 +1,38 @@
+{
+  "name": "impeditvoluptas",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [
+    "figma",
+    "design",
+    "eaque",
+    "rerum",
+    "api"
+  ],
+  "author": "DemarioHalvorson",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OctaviaRoob/impeditvoluptas.git"
+  },
+  "main": "dist/index.js",
+  "module": "dist/figma-transformer.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "peerDependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint && yarn test"
+    }
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.3",
+    "figma-js": "^1.10.1",
+    "husky": "^4.2.5",
+    "tsdx": "^0.13.2",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {}
+}
